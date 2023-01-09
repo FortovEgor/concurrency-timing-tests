@@ -24,9 +24,9 @@ void* func2(void* arg1) {
 
 // compile WITHOUT optimizations (i.e. without -O1, -O2, -O3 or -O-fast)
 // recommended for DEBUG:
-// g++ 5.cpp -Wall -Werror -std=c++14
+// g++ test1.cpp -Wall -Werror -std=c++14
 // recommended for RELEASE:
-// g++ 5.cpp -std=c++14
+// g++ test1.cpp -std=c++14
 // Note: c++ versions lower 14 do not support syntax sugar like 1'000, 1'000'000
 // So compile with c++14 or higher
 int main(void) {
