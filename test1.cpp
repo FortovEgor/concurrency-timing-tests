@@ -31,12 +31,10 @@ int main(void) {
     pthread_join(th2, NULL);
     ENDP;
 
-
     START;
     func(nullptr);
     func2(nullptr);
     ENDP;
 
-    
-	return 0;
+    return 0;
 }
